@@ -1,0 +1,2108 @@
+# depslib dependency file v1.0
+1564206893 source:z:\programming\c++\project\spam bot 2\main.cpp
+	<iostream>
+	<string>
+	<cctype>
+	<windows.h>
+	<TGUI/TGUI.hpp>
+
+1553322849 z:\library\c++ temp\tgui\include\tgui\tgui.hpp
+	<TGUI/Clipboard.hpp>
+	<TGUI/Animation.hpp>
+	<TGUI/Widget.hpp>
+	<TGUI/ToolTip.hpp>
+	<TGUI/Container.hpp>
+	<TGUI/Gui.hpp>
+	<TGUI/Loading/Deserializer.hpp>
+	<TGUI/Loading/Serializer.hpp>
+	<TGUI/Loading/Theme.hpp>
+	<TGUI/Loading/WidgetFactory.hpp>
+	<TGUI/Widgets/BitmapButton.hpp>
+	<TGUI/Widgets/Button.hpp>
+	<TGUI/Widgets/Canvas.hpp>
+	<TGUI/Widgets/ChatBox.hpp>
+	<TGUI/Widgets/CheckBox.hpp>
+	<TGUI/Widgets/ChildWindow.hpp>
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Widgets/ComboBox.hpp>
+	<TGUI/Widgets/EditBox.hpp>
+	<TGUI/Widgets/Group.hpp>
+	<TGUI/Widgets/Grid.hpp>
+	<TGUI/Widgets/HorizontalLayout.hpp>
+	<TGUI/Widgets/HorizontalWrap.hpp>
+	<TGUI/Widgets/Knob.hpp>
+	<TGUI/Widgets/Label.hpp>
+	<TGUI/Widgets/ListBox.hpp>
+	<TGUI/Widgets/ListView.hpp>
+	<TGUI/Widgets/MenuBar.hpp>
+	<TGUI/Widgets/MessageBox.hpp>
+	<TGUI/Widgets/Panel.hpp>
+	<TGUI/Widgets/Picture.hpp>
+	<TGUI/Widgets/ProgressBar.hpp>
+	<TGUI/Widgets/RadioButton.hpp>
+	<TGUI/Widgets/RadioButtonGroup.hpp>
+	<TGUI/Widgets/RangeSlider.hpp>
+	<TGUI/Widgets/ScrollablePanel.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Widgets/Slider.hpp>
+	<TGUI/Widgets/SpinButton.hpp>
+	<TGUI/Widgets/Tabs.hpp>
+	<TGUI/Widgets/TextBox.hpp>
+	<TGUI/Widgets/TreeView.hpp>
+	<TGUI/Widgets/VerticalLayout.hpp>
+	<TGUI/SignalImpl.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Main.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\clipboard.hpp
+	<TGUI/Config.hpp>
+	<SFML/System/String.hpp>
+	<SFML/Window/WindowHandle.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\config.hpp
+	<SFML/Config.hpp>
+
+1545410609 z:\library\c++ temp\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\utf.inl
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\string.inl
+
+1545410615 z:\library\c++ temp\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1553322847 z:\library\c++ temp\tgui\include\tgui\animation.hpp
+	<TGUI/Vector2f.hpp>
+	<SFML/System/Time.hpp>
+	<functional>
+	<memory>
+
+1553322849 z:\library\c++ temp\tgui\include\tgui\vector2f.hpp
+	<TGUI/Global.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Err.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\global.hpp
+	<TGUI/Config.hpp>
+	<TGUI/Exception.hpp>
+	<TGUI/Font.hpp>
+	<cstdint>
+	<string>
+	<memory>
+	<iostream>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\exception.hpp
+	<string>
+	<stdexcept>
+	<TGUI/Config.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\font.hpp
+	<TGUI/Config.hpp>
+	<SFML/Graphics/Font.hpp>
+	<cstdint>
+	<string>
+	<cstddef>
+	<memory>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\vector2.inl
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\rect.inl
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1553322849 z:\library\c++ temp\tgui\include\tgui\widget.hpp
+	<TGUI/Global.hpp>
+	<TGUI/Signal.hpp>
+	<TGUI/Sprite.hpp>
+	<TGUI/Layout.hpp>
+	<TGUI/Vector2f.hpp>
+	<TGUI/Loading/Theme.hpp>
+	<TGUI/Loading/DataIO.hpp>
+	<TGUI/Loading/Serializer.hpp>
+	<TGUI/Loading/Deserializer.hpp>
+	<TGUI/Renderers/WidgetRenderer.hpp>
+	<TGUI/Aurora/SmartPtr/CopiedPtr.hpp>
+	<TGUI/Aurora/Tools/Downcast.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<unordered_set>
+	<any>
+	<TGUI/Any.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\signal.hpp
+	<TGUI/Global.hpp>
+	<TGUI/Vector2f.hpp>
+	<TGUI/Animation.hpp>
+	<SFML/System/String.hpp>
+	<functional>
+	<typeindex>
+	<memory>
+	<vector>
+	<deque>
+	<map>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\sprite.hpp
+	<TGUI/Texture.hpp>
+	<TGUI/Vector2f.hpp>
+	<TGUI/FloatRect.hpp>
+	<TGUI/Color.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/Vertex.hpp>
+
+1553322849 z:\library\c++ temp\tgui\include\tgui\texture.hpp
+	<TGUI/TextureData.hpp>
+	<TGUI/Vector2f.hpp>
+	<TGUI/Color.hpp>
+	<SFML/System/String.hpp>
+	<functional>
+
+1553322849 z:\library\c++ temp\tgui\include\tgui\texturedata.hpp
+	<TGUI/Config.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<memory>
+	<string>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1545410613 z:\library\c++ temp\sfml\include\sfml\system\vector3.inl
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\glsl.inl
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\floatrect.hpp
+	<TGUI/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\color.hpp
+	<TGUI/Config.hpp>
+	<SFML/Graphics/Color.hpp>
+	<cstdint>
+	<string>
+	<map>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\layout.hpp
+	<TGUI/Config.hpp>
+	<TGUI/Vector2f.hpp>
+	<type_traits>
+	<functional>
+	<memory>
+	<string>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\loading\theme.hpp
+	<TGUI/Loading/ThemeLoader.hpp>
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\loading\themeloader.hpp
+	<TGUI/Config.hpp>
+	<SFML/System/String.hpp>
+	<memory>
+	<string>
+	<vector>
+	<map>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\widgetrenderer.hpp
+	<TGUI/Config.hpp>
+	<TGUI/ObjectConverter.hpp>
+	<TGUI/Loading/DataIO.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\objectconverter.hpp
+	<TGUI/TextStyle.hpp>
+	<TGUI/Outline.hpp>
+	<TGUI/Texture.hpp>
+	<TGUI/Color.hpp>
+	<TGUI/Font.hpp>
+	<variant>
+	<TGUI/Any.hpp>
+
+1553322849 z:\library\c++ temp\tgui\include\tgui\textstyle.hpp
+	<TGUI/Config.hpp>
+	<SFML/Graphics/Text.hpp>
+	<string>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\primitivetype.hpp
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\outline.hpp
+	<TGUI/Vector2f.hpp>
+	<TGUI/AbsoluteOrRelativeValue.hpp>
+
+1553322847 z:\library\c++ temp\tgui\include\tgui\absoluteorrelativevalue.hpp
+	<TGUI/Global.hpp>
+	<TGUI/to_string.hpp>
+	<type_traits>
+	<string>
+
+1553322849 z:\library\c++ temp\tgui\include\tgui\to_string.hpp
+	<sstream>
+	<locale>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\any.hpp
+	<type_traits>
+	<utility>
+	<typeinfo>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\loading\dataio.hpp
+	<TGUI/Config.hpp>
+	<SFML/System/String.hpp>
+	<sstream>
+	<memory>
+	<vector>
+	<string>
+	<map>
+	<cstdio>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\loading\serializer.hpp
+	<TGUI/ObjectConverter.hpp>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\loading\deserializer.hpp
+	<TGUI/ObjectConverter.hpp>
+
+1553322850 z:\library\c++ temp\tgui\include\tgui\aurora\smartptr\copiedptr.hpp
+	<TGUI/Aurora/SmartPtr/ClonersAndDeleters.hpp>
+	<TGUI/Aurora/SmartPtr/Detail/PtrOwner.hpp>
+	<TGUI/Aurora/Tools/SafeBool.hpp>
+	<TGUI/Aurora/Tools/Swap.hpp>
+	<TGUI/Aurora/Config.hpp>
+	<algorithm>
+	<type_traits>
+	<utility>
+	<TGUI/Aurora/SmartPtr/Detail/Factories.hpp>
+
+1553322850 z:\library\c++ temp\tgui\include\tgui\aurora\smartptr\clonersanddeleters.hpp
+	<TGUI/Aurora/Meta/Templates.hpp>
+
+1553322850 z:\library\c++ temp\tgui\include\tgui\aurora\meta\templates.hpp
+	<TGUI/Aurora/Config.hpp>
+	<type_traits>
+
+1553322849 z:\library\c++ temp\tgui\include\tgui\aurora\config.hpp
+
+1553322850 z:\library\c++ temp\tgui\include\tgui\aurora\smartptr\detail\ptrowner.hpp
+	<TGUI/Aurora/Tools/NonCopyable.hpp>
+	<cassert>
+	<utility>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\aurora\tools\noncopyable.hpp
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\aurora\tools\safebool.hpp
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\aurora\tools\swap.hpp
+	<utility>
+
+1553322850 z:\library\c++ temp\tgui\include\tgui\aurora\smartptr\detail\factories.hpp
+	<TGUI/Aurora/Meta/Preprocessor.hpp>
+
+1553322850 z:\library\c++ temp\tgui\include\tgui\aurora\meta\preprocessor.hpp
+	<TGUI/Aurora/Config.hpp>
+
+1553322850 z:\library\c++ temp\tgui\include\tgui\aurora\tools\downcast.hpp
+	<cassert>
+	<type_traits>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1553322849 z:\library\c++ temp\tgui\include\tgui\tooltip.hpp
+	<TGUI/Config.hpp>
+	<TGUI/Vector2f.hpp>
+	<SFML/System/Time.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\container.hpp
+	<list>
+	<TGUI/Widget.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\gui.hpp
+	<TGUI/Container.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<queue>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1545410615 z:\library\c++ temp\sfml\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1545410615 z:\library\c++ temp\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1545410615 z:\library\c++ temp\sfml\include\sfml\window\windowstyle.hpp
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\loading\widgetfactory.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Loading/DataIO.hpp>
+	<functional>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\widgets\bitmapbutton.hpp
+	<TGUI/Widgets/Button.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\widgets\button.hpp
+	<TGUI/Renderers/ButtonRenderer.hpp>
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Text.hpp>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\renderers\buttonrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\clickablewidget.hpp
+	<TGUI/Widget.hpp>
+
+1553322849 z:\library\c++ temp\tgui\include\tgui\text.hpp
+	<TGUI/Font.hpp>
+	<TGUI/Color.hpp>
+	<TGUI/Vector2f.hpp>
+	<TGUI/TextStyle.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Transformable.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\canvas.hpp
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/Sprite.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\chatbox.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/ChatBoxRenderer.hpp>
+	<TGUI/Text.hpp>
+	<deque>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\copiedsharedptr.hpp
+	<memory>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\scrollbar.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/ScrollbarRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\scrollbarrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\renderers\chatboxrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\checkbox.hpp
+	<TGUI/Widgets/RadioButton.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\radiobutton.hpp
+	<TGUI/Renderers/RadioButtonRenderer.hpp>
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\radiobuttonrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\childwindow.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Container.hpp>
+	<TGUI/Widgets/Button.hpp>
+	<TGUI/Renderers/ChildWindowRenderer.hpp>
+	<limits>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\renderers\childwindowrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\combobox.hpp
+	<TGUI/Widgets/ListBox.hpp>
+	<TGUI/Renderers/ComboBoxRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\listbox.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/ListBoxRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\listboxrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\renderers\comboboxrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\editbox.hpp
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Renderers/EditBoxRenderer.hpp>
+	<TGUI/FloatRect.hpp>
+	<TGUI/Text.hpp>
+	<regex>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\renderers\editboxrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\group.hpp
+	<TGUI/Container.hpp>
+	<TGUI/Renderers/GroupRenderer.hpp>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\renderers\grouprenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\grid.hpp
+	<TGUI/Container.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\horizontallayout.hpp
+	<TGUI/Widgets/BoxLayoutRatios.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\widgets\boxlayoutratios.hpp
+	<TGUI/Widgets/BoxLayout.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\widgets\boxlayout.hpp
+	<TGUI/Widgets/Group.hpp>
+	<TGUI/Renderers/BoxLayoutRenderer.hpp>
+
+1553322851 z:\library\c++ temp\tgui\include\tgui\renderers\boxlayoutrenderer.hpp
+	<TGUI/Renderers/GroupRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\horizontalwrap.hpp
+	<TGUI/Widgets/BoxLayout.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\knob.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/KnobRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\knobrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\label.hpp
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Renderers/LabelRenderer.hpp>
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\labelrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\menubar.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/MenuBarRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\menubarrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\messagebox.hpp
+	<TGUI/Widgets/Label.hpp>
+	<TGUI/Widgets/Button.hpp>
+	<TGUI/Widgets/ChildWindow.hpp>
+	<TGUI/Renderers/MessageBoxRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\messageboxrenderer.hpp
+	<TGUI/Renderers/ChildWindowRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\panel.hpp
+	<TGUI/Widgets/Group.hpp>
+	<TGUI/Renderers/PanelRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\panelrenderer.hpp
+	<TGUI/Renderers/GroupRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\picture.hpp
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Renderers/PictureRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\picturerenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\progressbar.hpp
+	<TGUI/Renderers/ProgressBarRenderer.hpp>
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\progressbarrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\radiobuttongroup.hpp
+	<TGUI/Widgets/Group.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\rangeslider.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/RangeSliderRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\rangesliderrenderer.hpp
+	<TGUI/Renderers/SliderRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\sliderrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\scrollablepanel.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Panel.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/ScrollablePanelRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\scrollablepanelrenderer.hpp
+	<TGUI/Renderers/PanelRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui\include\tgui\widgets\slider.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/SliderRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui\include\tgui\widgets\spinbutton.hpp
+	<TGUI/Renderers/SpinButtonRenderer.hpp>
+	<TGUI/Widgets/ClickableWidget.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\spinbuttonrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui\include\tgui\widgets\tabs.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/TabsRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\tabsrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui\include\tgui\widgets\textbox.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/TextBoxRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\textboxrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui\include\tgui\widgets\treeview.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/TreeViewRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\treeviewrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui\include\tgui\widgets\verticallayout.hpp
+	<TGUI/Widgets/BoxLayoutRatios.hpp>
+
+1553322848 z:\library\c++ temp\tgui\include\tgui\signalimpl.hpp
+	<TGUI/Signal.hpp>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\thread.inl
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1545410612 z:\library\c++ temp\sfml\include\sfml\system\threadlocalptr.inl
+
+1545410613 z:\library\c++ temp\sfml\include\sfml\window\clipboard.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1545410614 z:\library\c++ temp\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1545410611 z:\library\c++ temp\sfml\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1545410610 z:\library\c++ temp\sfml\include\sfml\main.hpp
+	<SFML/Config.hpp>
+
+1553322853 z:\library\c++ temp\tgui\include\tgui\widgets\listview.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/ListViewRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui\include\tgui\renderers\listviewrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322849 z:\library\c++ temp\tgui64\include\tgui\tgui.hpp
+	<TGUI/Clipboard.hpp>
+	<TGUI/Animation.hpp>
+	<TGUI/Widget.hpp>
+	<TGUI/ToolTip.hpp>
+	<TGUI/Container.hpp>
+	<TGUI/Gui.hpp>
+	<TGUI/Loading/Deserializer.hpp>
+	<TGUI/Loading/Serializer.hpp>
+	<TGUI/Loading/Theme.hpp>
+	<TGUI/Loading/WidgetFactory.hpp>
+	<TGUI/Widgets/BitmapButton.hpp>
+	<TGUI/Widgets/Button.hpp>
+	<TGUI/Widgets/Canvas.hpp>
+	<TGUI/Widgets/ChatBox.hpp>
+	<TGUI/Widgets/CheckBox.hpp>
+	<TGUI/Widgets/ChildWindow.hpp>
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Widgets/ComboBox.hpp>
+	<TGUI/Widgets/EditBox.hpp>
+	<TGUI/Widgets/Group.hpp>
+	<TGUI/Widgets/Grid.hpp>
+	<TGUI/Widgets/HorizontalLayout.hpp>
+	<TGUI/Widgets/HorizontalWrap.hpp>
+	<TGUI/Widgets/Knob.hpp>
+	<TGUI/Widgets/Label.hpp>
+	<TGUI/Widgets/ListBox.hpp>
+	<TGUI/Widgets/ListView.hpp>
+	<TGUI/Widgets/MenuBar.hpp>
+	<TGUI/Widgets/MessageBox.hpp>
+	<TGUI/Widgets/Panel.hpp>
+	<TGUI/Widgets/Picture.hpp>
+	<TGUI/Widgets/ProgressBar.hpp>
+	<TGUI/Widgets/RadioButton.hpp>
+	<TGUI/Widgets/RadioButtonGroup.hpp>
+	<TGUI/Widgets/RangeSlider.hpp>
+	<TGUI/Widgets/ScrollablePanel.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Widgets/Slider.hpp>
+	<TGUI/Widgets/SpinButton.hpp>
+	<TGUI/Widgets/Tabs.hpp>
+	<TGUI/Widgets/TextBox.hpp>
+	<TGUI/Widgets/TreeView.hpp>
+	<TGUI/Widgets/VerticalLayout.hpp>
+	<TGUI/SignalImpl.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Main.hpp>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\clipboard.hpp
+	<TGUI/Config.hpp>
+	<SFML/System/String.hpp>
+	<SFML/Window/WindowHandle.hpp>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\config.hpp
+	<SFML/Config.hpp>
+
+1545410609 z:\library\c++ temp\sfml64\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1545453983 z:\library\c++ temp\sfml64\include\sfml\system\string.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Utf.hpp"
+	<iterator>
+	<locale>
+	<string>
+	"Z:/library/C++/sfml/include/SFML/System/String.inl"
+
+1545453830 z:\library\c++\sfml\include\sfml\system\export.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+
+1545410609 z:\library\c++\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1545453952 z:\library\c++\sfml\include\sfml\system\utf.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	"Z:/library/C++/sfml/include/SFML/System/Utf.inl"
+
+1545410612 z:\library\c++\sfml\include\sfml\system\utf.inl
+
+1545410612 z:\library\c++\sfml\include\sfml\system\string.inl
+
+1545499374 z:\library\c++ temp\sfml64\include\sfml\window\windowhandle.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+
+1553322847 z:\library\c++ temp\tgui64\include\tgui\animation.hpp
+	<TGUI/Vector2f.hpp>
+	<SFML/System/Time.hpp>
+	<functional>
+	<memory>
+
+1553322849 z:\library\c++ temp\tgui64\include\tgui\vector2f.hpp
+	<TGUI/Global.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Err.hpp>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\global.hpp
+	<TGUI/Config.hpp>
+	<TGUI/Exception.hpp>
+	<TGUI/Font.hpp>
+	<cstdint>
+	<string>
+	<memory>
+	<iostream>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\exception.hpp
+	<string>
+	<stdexcept>
+	<TGUI/Config.hpp>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\font.hpp
+	<TGUI/Config.hpp>
+	<SFML/Graphics/Font.hpp>
+	<cstdint>
+	<string>
+	<cstddef>
+	<memory>
+
+1545453167 z:\library\c++ temp\sfml64\include\sfml\graphics\font.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Glyph.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Texture.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/String.hpp"
+	<map>
+	<string>
+	<vector>
+
+1545453138 z:\library\c++\sfml\include\sfml\graphics\export.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+
+1545453179 z:\library\c++\sfml\include\sfml\graphics\glyph.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+
+1545453353 z:\library\c++\sfml\include\sfml\graphics\rect.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+	<algorithm>
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.inl"
+
+1545453344 z:\library\c++\sfml\include\sfml\system\vector2.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.inl"
+
+1545410612 z:\library\c++\sfml\include\sfml\system\vector2.inl
+
+1545410611 z:\library\c++\sfml\include\sfml\graphics\rect.inl
+
+1545453374 z:\library\c++\sfml\include\sfml\graphics\texture.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Image.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/GlResource.hpp"
+
+1545453445 z:\library\c++\sfml\include\sfml\graphics\image.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Color.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	<string>
+	<vector>
+
+1545453456 z:\library\c++\sfml\include\sfml\graphics\color.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+
+1545453536 z:\library\c++\sfml\include\sfml\window\glresource.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/NonCopyable.hpp"
+
+1545453549 z:\library\c++\sfml\include\sfml\window\export.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+
+1545453819 z:\library\c++\sfml\include\sfml\system\noncopyable.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Export.hpp"
+
+1545453983 z:\library\c++\sfml\include\sfml\system\string.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Utf.hpp"
+	<iterator>
+	<locale>
+	<string>
+	"Z:/library/C++/sfml/include/SFML/System/String.inl"
+
+1545453344 z:\library\c++ temp\sfml64\include\sfml\system\vector2.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.inl"
+
+1545454061 z:\library\c++ temp\sfml64\include\sfml\system\err.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Export.hpp"
+	<ostream>
+
+1545454138 z:\library\c++ temp\sfml64\include\sfml\system\time.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Export.hpp"
+
+1553322849 z:\library\c++ temp\tgui64\include\tgui\widget.hpp
+	<TGUI/Global.hpp>
+	<TGUI/Signal.hpp>
+	<TGUI/Sprite.hpp>
+	<TGUI/Layout.hpp>
+	<TGUI/Vector2f.hpp>
+	<TGUI/Loading/Theme.hpp>
+	<TGUI/Loading/DataIO.hpp>
+	<TGUI/Loading/Serializer.hpp>
+	<TGUI/Loading/Deserializer.hpp>
+	<TGUI/Renderers/WidgetRenderer.hpp>
+	<TGUI/Aurora/SmartPtr/CopiedPtr.hpp>
+	<TGUI/Aurora/Tools/Downcast.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<unordered_set>
+	<any>
+	<TGUI/Any.hpp>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\signal.hpp
+	<TGUI/Global.hpp>
+	<TGUI/Vector2f.hpp>
+	<TGUI/Animation.hpp>
+	<SFML/System/String.hpp>
+	<functional>
+	<typeindex>
+	<memory>
+	<vector>
+	<deque>
+	<map>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\sprite.hpp
+	<TGUI/Texture.hpp>
+	<TGUI/Vector2f.hpp>
+	<TGUI/FloatRect.hpp>
+	<TGUI/Color.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/Vertex.hpp>
+
+1553322849 z:\library\c++ temp\tgui64\include\tgui\texture.hpp
+	<TGUI/TextureData.hpp>
+	<TGUI/Vector2f.hpp>
+	<TGUI/Color.hpp>
+	<SFML/System/String.hpp>
+	<functional>
+
+1553322849 z:\library\c++ temp\tgui64\include\tgui\texturedata.hpp
+	<TGUI/Config.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<memory>
+	<string>
+
+1545453445 z:\library\c++ temp\sfml64\include\sfml\graphics\image.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Color.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	<string>
+	<vector>
+
+1545453374 z:\library\c++ temp\sfml64\include\sfml\graphics\texture.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Image.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/GlResource.hpp"
+
+1545453353 z:\library\c++ temp\sfml64\include\sfml\graphics\rect.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+	<algorithm>
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.inl"
+
+1545454237 z:\library\c++ temp\sfml64\include\sfml\graphics\shader.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Glsl.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/GlResource.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/NonCopyable.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector3.hpp"
+	<map>
+	<string>
+
+1545454313 z:\library\c++\sfml\include\sfml\graphics\glsl.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transform.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Color.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector3.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Glsl.inl"
+
+1545454294 z:\library\c++\sfml\include\sfml\graphics\transform.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545454303 z:\library\c++\sfml\include\sfml\system\vector3.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Vector3.inl"
+
+1545410613 z:\library\c++\sfml\include\sfml\system\vector3.inl
+
+1545410611 z:\library\c++\sfml\include\sfml\graphics\glsl.inl
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\color.hpp
+	<TGUI/Config.hpp>
+	<SFML/Graphics/Color.hpp>
+	<cstdint>
+	<string>
+	<map>
+
+1545453456 z:\library\c++ temp\sfml64\include\sfml\graphics\color.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\floatrect.hpp
+	<TGUI/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1545454538 z:\library\c++ temp\sfml64\include\sfml\graphics\transformable.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transform.hpp"
+
+1545454564 z:\library\c++ temp\sfml64\include\sfml\graphics\renderstates.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/BlendMode.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transform.hpp"
+
+1545454576 z:\library\c++\sfml\include\sfml\graphics\blendmode.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+
+1545454593 z:\library\c++ temp\sfml64\include\sfml\graphics\vertex.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Color.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\layout.hpp
+	<TGUI/Config.hpp>
+	<TGUI/Vector2f.hpp>
+	<type_traits>
+	<functional>
+	<memory>
+	<string>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\loading\theme.hpp
+	<TGUI/Loading/ThemeLoader.hpp>
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\loading\themeloader.hpp
+	<TGUI/Config.hpp>
+	<SFML/System/String.hpp>
+	<memory>
+	<string>
+	<vector>
+	<map>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\widgetrenderer.hpp
+	<TGUI/Config.hpp>
+	<TGUI/ObjectConverter.hpp>
+	<TGUI/Loading/DataIO.hpp>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\objectconverter.hpp
+	<TGUI/TextStyle.hpp>
+	<TGUI/Outline.hpp>
+	<TGUI/Texture.hpp>
+	<TGUI/Color.hpp>
+	<TGUI/Font.hpp>
+	<variant>
+	<TGUI/Any.hpp>
+
+1553322849 z:\library\c++ temp\tgui64\include\tgui\textstyle.hpp
+	<TGUI/Config.hpp>
+	<SFML/Graphics/Text.hpp>
+	<string>
+
+1545454704 z:\library\c++ temp\sfml64\include\sfml\graphics\text.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Drawable.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transformable.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Font.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/VertexArray.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/String.hpp"
+	<string>
+	<vector>
+
+1545454723 z:\library\c++\sfml\include\sfml\graphics\drawable.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/RenderStates.hpp"
+
+1545454564 z:\library\c++\sfml\include\sfml\graphics\renderstates.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/BlendMode.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transform.hpp"
+
+1545454538 z:\library\c++\sfml\include\sfml\graphics\transformable.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transform.hpp"
+
+1545453167 z:\library\c++\sfml\include\sfml\graphics\font.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Glyph.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Texture.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/String.hpp"
+	<map>
+	<string>
+	<vector>
+
+1545454756 z:\library\c++\sfml\include\sfml\graphics\vertexarray.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Vertex.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/PrimitiveType.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Drawable.hpp"
+	<vector>
+
+1545454593 z:\library\c++\sfml\include\sfml\graphics\vertex.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Color.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545410611 z:\library\c++\sfml\include\sfml\graphics\primitivetype.hpp
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\outline.hpp
+	<TGUI/Vector2f.hpp>
+	<TGUI/AbsoluteOrRelativeValue.hpp>
+
+1553322847 z:\library\c++ temp\tgui64\include\tgui\absoluteorrelativevalue.hpp
+	<TGUI/Global.hpp>
+	<TGUI/to_string.hpp>
+	<type_traits>
+	<string>
+
+1553322849 z:\library\c++ temp\tgui64\include\tgui\to_string.hpp
+	<sstream>
+	<locale>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\any.hpp
+	<type_traits>
+	<utility>
+	<typeinfo>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\loading\dataio.hpp
+	<TGUI/Config.hpp>
+	<SFML/System/String.hpp>
+	<sstream>
+	<memory>
+	<vector>
+	<string>
+	<map>
+	<cstdio>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\loading\serializer.hpp
+	<TGUI/ObjectConverter.hpp>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\loading\deserializer.hpp
+	<TGUI/ObjectConverter.hpp>
+
+1553322850 z:\library\c++ temp\tgui64\include\tgui\aurora\smartptr\copiedptr.hpp
+	<TGUI/Aurora/SmartPtr/ClonersAndDeleters.hpp>
+	<TGUI/Aurora/SmartPtr/Detail/PtrOwner.hpp>
+	<TGUI/Aurora/Tools/SafeBool.hpp>
+	<TGUI/Aurora/Tools/Swap.hpp>
+	<TGUI/Aurora/Config.hpp>
+	<algorithm>
+	<type_traits>
+	<utility>
+	<TGUI/Aurora/SmartPtr/Detail/Factories.hpp>
+
+1553322850 z:\library\c++ temp\tgui64\include\tgui\aurora\smartptr\clonersanddeleters.hpp
+	<TGUI/Aurora/Meta/Templates.hpp>
+
+1553322850 z:\library\c++ temp\tgui64\include\tgui\aurora\meta\templates.hpp
+	<TGUI/Aurora/Config.hpp>
+	<type_traits>
+
+1553322849 z:\library\c++ temp\tgui64\include\tgui\aurora\config.hpp
+
+1553322850 z:\library\c++ temp\tgui64\include\tgui\aurora\smartptr\detail\ptrowner.hpp
+	<TGUI/Aurora/Tools/NonCopyable.hpp>
+	<cassert>
+	<utility>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\aurora\tools\noncopyable.hpp
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\aurora\tools\safebool.hpp
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\aurora\tools\swap.hpp
+	<utility>
+
+1553322850 z:\library\c++ temp\tgui64\include\tgui\aurora\smartptr\detail\factories.hpp
+	<TGUI/Aurora/Meta/Preprocessor.hpp>
+
+1553322850 z:\library\c++ temp\tgui64\include\tgui\aurora\meta\preprocessor.hpp
+	<TGUI/Aurora/Config.hpp>
+
+1553322850 z:\library\c++ temp\tgui64\include\tgui\aurora\tools\downcast.hpp
+	<cassert>
+	<type_traits>
+
+1545454918 z:\library\c++ temp\sfml64\include\sfml\window\event.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/Joystick.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/Keyboard.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/Mouse.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/Sensor.hpp"
+
+1545454961 z:\library\c++\sfml\include\sfml\window\joystick.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/String.hpp"
+
+1545456250 z:\library\c++\sfml\include\sfml\window\keyboard.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+
+1545497079 z:\library\c++\sfml\include\sfml\window\mouse.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545497176 z:\library\c++\sfml\include\sfml\window\sensor.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector3.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Time.hpp"
+
+1545454138 z:\library\c++\sfml\include\sfml\system\time.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Export.hpp"
+
+1545497237 z:\library\c++ temp\sfml64\include\sfml\graphics\rendertarget.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Color.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/View.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transform.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/BlendMode.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/RenderStates.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/PrimitiveType.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Vertex.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/NonCopyable.hpp"
+
+1545497802 z:\library\c++\sfml\include\sfml\graphics\view.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transform.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1553322849 z:\library\c++ temp\tgui64\include\tgui\tooltip.hpp
+	<TGUI/Config.hpp>
+	<TGUI/Vector2f.hpp>
+	<SFML/System/Time.hpp>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\container.hpp
+	<list>
+	<TGUI/Widget.hpp>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\gui.hpp
+	<TGUI/Container.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<queue>
+
+1545499687 z:\library\c++ temp\sfml64\include\sfml\graphics\renderwindow.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/RenderTarget.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Image.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/Window.hpp"
+	<string>
+
+1545497237 z:\library\c++\sfml\include\sfml\graphics\rendertarget.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Color.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/View.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transform.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/BlendMode.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/RenderStates.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/PrimitiveType.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Vertex.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/NonCopyable.hpp"
+
+1545499767 z:\library\c++\sfml\include\sfml\window\window.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/ContextSettings.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/Cursor.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/GlResource.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/VideoMode.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/WindowHandle.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/WindowStyle.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Clock.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/NonCopyable.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/String.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545499778 z:\library\c++\sfml\include\sfml\window\contextsettings.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+
+1545499800 z:\library\c++\sfml\include\sfml\window\cursor.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/NonCopyable.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545499807 z:\library\c++\sfml\include\sfml\window\videomode.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	<vector>
+
+1545499374 z:\library\c++\sfml\include\sfml\window\windowhandle.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+
+1545410615 z:\library\c++\sfml\include\sfml\window\windowstyle.hpp
+
+1545499818 z:\library\c++\sfml\include\sfml\system\clock.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Time.hpp"
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\loading\widgetfactory.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Loading/DataIO.hpp>
+	<functional>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\widgets\bitmapbutton.hpp
+	<TGUI/Widgets/Button.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\widgets\button.hpp
+	<TGUI/Renderers/ButtonRenderer.hpp>
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Text.hpp>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\renderers\buttonrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\clickablewidget.hpp
+	<TGUI/Widget.hpp>
+
+1553322849 z:\library\c++ temp\tgui64\include\tgui\text.hpp
+	<TGUI/Font.hpp>
+	<TGUI/Color.hpp>
+	<TGUI/Vector2f.hpp>
+	<TGUI/TextStyle.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Transformable.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\canvas.hpp
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/Sprite.hpp>
+
+1545499868 z:\library\c++ temp\sfml64\include\sfml\graphics\rendertexture.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Texture.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/RenderTarget.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/ContextSettings.hpp"
+
+1545410611 z:\library\c++ temp\sfml64\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1545453138 z:\library\c++ temp\sfml64\include\sfml\graphics\export.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+
+1545454723 z:\library\c++ temp\sfml64\include\sfml\graphics\drawable.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/RenderStates.hpp"
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\chatbox.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/ChatBoxRenderer.hpp>
+	<TGUI/Text.hpp>
+	<deque>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\copiedsharedptr.hpp
+	<memory>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\scrollbar.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/ScrollbarRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\scrollbarrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\renderers\chatboxrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\checkbox.hpp
+	<TGUI/Widgets/RadioButton.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\radiobutton.hpp
+	<TGUI/Renderers/RadioButtonRenderer.hpp>
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\radiobuttonrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\childwindow.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Container.hpp>
+	<TGUI/Widgets/Button.hpp>
+	<TGUI/Renderers/ChildWindowRenderer.hpp>
+	<limits>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\renderers\childwindowrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\combobox.hpp
+	<TGUI/Widgets/ListBox.hpp>
+	<TGUI/Renderers/ComboBoxRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\listbox.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/ListBoxRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\listboxrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\renderers\comboboxrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\editbox.hpp
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Renderers/EditBoxRenderer.hpp>
+	<TGUI/FloatRect.hpp>
+	<TGUI/Text.hpp>
+	<regex>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\renderers\editboxrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\group.hpp
+	<TGUI/Container.hpp>
+	<TGUI/Renderers/GroupRenderer.hpp>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\renderers\grouprenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\grid.hpp
+	<TGUI/Container.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\horizontallayout.hpp
+	<TGUI/Widgets/BoxLayoutRatios.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\widgets\boxlayoutratios.hpp
+	<TGUI/Widgets/BoxLayout.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\widgets\boxlayout.hpp
+	<TGUI/Widgets/Group.hpp>
+	<TGUI/Renderers/BoxLayoutRenderer.hpp>
+
+1553322851 z:\library\c++ temp\tgui64\include\tgui\renderers\boxlayoutrenderer.hpp
+	<TGUI/Renderers/GroupRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\horizontalwrap.hpp
+	<TGUI/Widgets/BoxLayout.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\knob.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/KnobRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\knobrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\label.hpp
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Renderers/LabelRenderer.hpp>
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\labelrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\listview.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/ListViewRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\listviewrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\menubar.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/MenuBarRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\menubarrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\messagebox.hpp
+	<TGUI/Widgets/Label.hpp>
+	<TGUI/Widgets/Button.hpp>
+	<TGUI/Widgets/ChildWindow.hpp>
+	<TGUI/Renderers/MessageBoxRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\messageboxrenderer.hpp
+	<TGUI/Renderers/ChildWindowRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\panel.hpp
+	<TGUI/Widgets/Group.hpp>
+	<TGUI/Renderers/PanelRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\panelrenderer.hpp
+	<TGUI/Renderers/GroupRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\picture.hpp
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Renderers/PictureRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\picturerenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\progressbar.hpp
+	<TGUI/Renderers/ProgressBarRenderer.hpp>
+	<TGUI/Widgets/ClickableWidget.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\progressbarrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\radiobuttongroup.hpp
+	<TGUI/Widgets/Group.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\rangeslider.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/RangeSliderRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\rangesliderrenderer.hpp
+	<TGUI/Renderers/SliderRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\sliderrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322853 z:\library\c++ temp\tgui64\include\tgui\widgets\scrollablepanel.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Panel.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/ScrollablePanelRenderer.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\scrollablepanelrenderer.hpp
+	<TGUI/Renderers/PanelRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui64\include\tgui\widgets\slider.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/SliderRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui64\include\tgui\widgets\spinbutton.hpp
+	<TGUI/Renderers/SpinButtonRenderer.hpp>
+	<TGUI/Widgets/ClickableWidget.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\spinbuttonrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui64\include\tgui\widgets\tabs.hpp
+	<TGUI/Widget.hpp>
+	<TGUI/Renderers/TabsRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\tabsrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui64\include\tgui\widgets\textbox.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/TextBoxRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\textboxrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui64\include\tgui\widgets\treeview.hpp
+	<TGUI/CopiedSharedPtr.hpp>
+	<TGUI/Widgets/Scrollbar.hpp>
+	<TGUI/Renderers/TreeViewRenderer.hpp>
+	<TGUI/Text.hpp>
+
+1553322852 z:\library\c++ temp\tgui64\include\tgui\renderers\treeviewrenderer.hpp
+	<TGUI/Renderers/WidgetRenderer.hpp>
+
+1553322854 z:\library\c++ temp\tgui64\include\tgui\widgets\verticallayout.hpp
+	<TGUI/Widgets/BoxLayoutRatios.hpp>
+
+1553322848 z:\library\c++ temp\tgui64\include\tgui\signalimpl.hpp
+	<TGUI/Signal.hpp>
+
+1545410610 z:\library\c++ temp\sfml64\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1545410610 z:\library\c++ temp\sfml64\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1545410610 z:\library\c++ temp\sfml64\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1545499818 z:\library\c++ temp\sfml64\include\sfml\system\clock.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Time.hpp"
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1545453830 z:\library\c++ temp\sfml64\include\sfml\system\export.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1545453819 z:\library\c++ temp\sfml64\include\sfml\system\noncopyable.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Export.hpp"
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\thread.inl
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1545410612 z:\library\c++ temp\sfml64\include\sfml\system\threadlocalptr.inl
+
+1545453952 z:\library\c++ temp\sfml64\include\sfml\system\utf.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	"Z:/library/C++/sfml/include/SFML/System/Utf.inl"
+
+1545454303 z:\library\c++ temp\sfml64\include\sfml\system\vector3.hpp
+	"Z:/library/C++/sfml/include/SFML/System/Vector3.inl"
+
+1545499397 z:\library\c++ temp\sfml64\include\sfml\window\clipboard.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/String.hpp"
+
+1545410614 z:\library\c++ temp\sfml64\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1545453549 z:\library\c++ temp\sfml64\include\sfml\window\export.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+
+1545453536 z:\library\c++ temp\sfml64\include\sfml\window\glresource.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/NonCopyable.hpp"
+
+1545499778 z:\library\c++ temp\sfml64\include\sfml\window\contextsettings.hpp
+	"Z:/library/C++/sfml/include/SFML/Config.hpp"
+
+1545499800 z:\library\c++ temp\sfml64\include\sfml\window\cursor.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/NonCopyable.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545454961 z:\library\c++ temp\sfml64\include\sfml\window\joystick.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/String.hpp"
+
+1545456250 z:\library\c++ temp\sfml64\include\sfml\window\keyboard.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+
+1545497079 z:\library\c++ temp\sfml64\include\sfml\window\mouse.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545497176 z:\library\c++ temp\sfml64\include\sfml\window\sensor.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector3.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Time.hpp"
+
+1545410614 z:\library\c++ temp\sfml64\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1545499807 z:\library\c++ temp\sfml64\include\sfml\window\videomode.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	<vector>
+
+1545499767 z:\library\c++ temp\sfml64\include\sfml\window\window.hpp
+	"Z:/library/C++/sfml/include/SFML/Window/ContextSettings.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/Cursor.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/GlResource.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/VideoMode.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/WindowHandle.hpp"
+	"Z:/library/C++/sfml/include/SFML/Window/WindowStyle.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Clock.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/NonCopyable.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/String.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545410615 z:\library\c++ temp\sfml64\include\sfml\window\windowstyle.hpp
+
+1545454576 z:\library\c++ temp\sfml64\include\sfml\graphics\blendmode.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+
+1545410610 z:\library\c++ temp\sfml64\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1545500186 z:\library\c++ temp\sfml64\include\sfml\graphics\shape.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Drawable.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transformable.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/VertexArray.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545410610 z:\library\c++ temp\sfml64\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1545453179 z:\library\c++ temp\sfml64\include\sfml\graphics\glyph.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+
+1545410611 z:\library\c++ temp\sfml64\include\sfml\graphics\primitivetype.hpp
+
+1545500158 z:\library\c++ temp\sfml64\include\sfml\graphics\rectangleshape.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Shape.hpp"
+
+1545500186 z:\library\c++\sfml\include\sfml\graphics\shape.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Drawable.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transformable.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/VertexArray.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545454294 z:\library\c++ temp\sfml64\include\sfml\graphics\transform.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545454756 z:\library\c++ temp\sfml64\include\sfml\graphics\vertexarray.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Vertex.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/PrimitiveType.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Drawable.hpp"
+	<vector>
+
+1545410611 z:\library\c++ temp\sfml64\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1545497802 z:\library\c++ temp\sfml64\include\sfml\graphics\view.hpp
+	"Z:/library/C++/sfml/include/SFML/Graphics/Export.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Rect.hpp"
+	"Z:/library/C++/sfml/include/SFML/Graphics/Transform.hpp"
+	"Z:/library/C++/sfml/include/SFML/System/Vector2.hpp"
+
+1545410610 z:\library\c++ temp\sfml64\include\sfml\main.hpp
+	<SFML/Config.hpp>
+
+1564207421 source:z:\programming\c++\project\spam bot 2\icon.rc
+
