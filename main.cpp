@@ -63,7 +63,7 @@ int main()
         cooldown_btn->setSize( 30, 30 );
         cooldown_btn->setPosition( 210, 175 );
         cooldown_btn->setText( "set" );
-        cooldown_btn->connect( "pressed", [&cooldown_set, &gui]{
+        cooldown_btn->connect( "pressed", [&cooldown_set, &gui, &cooldown]{
                                 try
                                 {
                                     std::string temp = gui.get<tgui::EditBox>( "cooldown box" )->getText().toAnsiString();
@@ -85,9 +85,10 @@ int main()
         start_btn->setSize( 50, 50 );
         start_btn->setPosition( 100, 250 );
         start_btn->setText( "start" );
-        start_btn->connect( "pressed", [&spam, &run, &gui]{
+        start_btn->connect( "pressed", [&spam, &run, &gui, &cooldown]{
                             run = true;
                             spam = gui.get<tgui::EditBox>( "spam box" )->getText().toAnsiString();
+                            cooldown = sf::milliseconds( 0 );
                          } );
         gui.add( start_btn, "start btn" );
 
@@ -108,6 +109,9 @@ int main()
 
     sf::Clock clock;
 
+    sf::RectangleShape indicator{ sf::Vector2f{30, 30 } };
+    indicator.setPosition( 110, 300 );
+
     while( win.isOpen() )
     {
         sf::Event e;
@@ -117,15 +121,9 @@ int main()
 
             gui.handleEvent( e );
         }
+        cooldown -= clock.restart();
 
-        if( cooldown <= sf::milliseconds( 0 ) )
-        {
-            cooldown = cooldown_set;
-        }
-
-        cooldown -= clock.getElapsedTime();
-
-        if( ( run ) /*&& ( cooldown <= sf::milliseconds( 0 ) )*/ )
+        if( ( run ) && ( cooldown <= sf::milliseconds( 0 ) ) )
         {
             for( auto& c : spam )
             {
@@ -268,14 +266,18 @@ int main()
                         pressKey( temp );
                     }
                 }
+                cooldown = cooldown_set;
             }
             keybd_event( VK_RETURN, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0 );
             keybd_event( VK_RETURN, 0x45, KEYEVENTF_EXTENDEDKEY | KEYEVENTF_KEYUP, 0 );
             //cooldown = cooldown_set;
-            sf::sleep( cooldown_set );
         }
 
+        if( run ) indicator.setFillColor( sf::Color::Blue );
+        else indicator.setFillColor( sf::Color::Red );
+
         win.clear();
+        win.draw( indicator );
         gui.draw();
         win.display();
     }
